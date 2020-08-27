@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangwuhe.github.io/"/>
-  <updated>2020-08-24T13:12:28.416Z</updated>
+  <updated>2020-08-27T14:02:30.753Z</updated>
   <id>http://wangwuhe.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改this指向</title>
+    <link href="http://wangwuhe.github.io/2020/08/27/xiu-gai-this-zhi-xiang/"/>
+    <id>http://wangwuhe.github.io/2020/08/27/xiu-gai-this-zhi-xiang/</id>
+    <published>2020-08-27T13:49:25.000Z</published>
+    <updated>2020-08-27T14:02:30.753Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;改变函数内部this指针的指向&quot;&gt;&lt;a href=&quot;#改变函数内部this指针的指向&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="面试题" scheme="http://wangwuhe.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+    
+      <category term="JavaScript" scheme="http://wangwuhe.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>第一篇博客</title>

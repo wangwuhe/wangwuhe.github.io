@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>修改this指向</title>
+      <link href="/2020/08/27/xiu-gai-this-zhi-xiang/"/>
+      <url>/2020/08/27/xiu-gai-this-zhi-xiang/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="改变函数内部this指针的指向"><a href="#改变函数内部this指针的指向" class="headerlink" title="改变函数内部this指针的指向"></a>改变函数内部this指针的指向</h1><hr><ul><li>通过apply和call改变函数的this指向，他们两个函数的第一个参数都是一样的表示要改变指向的那个对象;第二个是传入的参数，apply是数组，而call则是arg1,arg2…这种形式。</li><li>通过bind改变this作用域会返回一个新的函数（我理解的是bind不改变原函数，再var一个新的函数拿来用。），这个函数不会马上执行。call 是把第二个及以后的参数作为 func 方法的实参传进去，而 func1 方法的实参实则是在 bind 中参数的基础上再往后排。</li></ul><pre><code>function func(a, b, c) {    console.log(a, b, c);}var func1 = func.bind(null,'linxin');//重新命名func('A', 'B', 'C');    // A B C//参数从bind的第二个参数插入到新函数fun1的第一个参数之前func1('A', 'B', 'C');  // linxin A Bfunc1('B', 'C');       // linxin B Cfunc.call(null, 'linxin');      // linxin undefined undefined</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 面试题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇博客</title>
       <link href="/2020/08/18/article-title/"/>
       <url>/2020/08/18/article-title/</url>
